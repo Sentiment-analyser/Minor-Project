@@ -63,10 +63,10 @@ def raw_polished():     #raw data from Twitter is converted to a polished versio
 def PHASE_1(READ=True):
     if(READ):                                           #since this process can be time consuming, data collection from Twitter everytime can
                                                         #be skipped by passing False as parameter 
-        access_token="1356115757050937347-QCY7yAQu89RofRCbKkJxp3HMnQWnBQ"
-        access_token_secret="ULHsx0VzLBreR7aZ21u5SUFVTRPRdx9xXQ0XQeRVbBYT8"
-        consumer_key="jUZIb0X73d14NEWZHYMCHx2Vn"
-        consumer_secret="CGgQ9sOPHlUSpqufo39c63lRs4fN5JuSo8s5DmrVzd7WgO6FKF"
+        access_token="*"
+        access_token_secret="*"
+        consumer_key="*"
+        consumer_secret="*"
         auth= tweepy.OAuthHandler(consumer_key,consumer_secret)
         auth.set_access_token(access_token,access_token_secret)
         tweet_list=[]
