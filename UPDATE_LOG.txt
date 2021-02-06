@@ -1,1 +1,10 @@
+2021_02_06:
+a> Improved readability of code via function formation
+b> Added feature to search in twitter with tags that are collected from internet itself rather than being handwritten. The function search_tokens() is responsible for the job.
+   Input(optional): A single string
+   Output: creates a list of strings related to the input string provided
+   Constraints: only one string can be entered at a time
+c> Added a parameter to bypass the data collection phase to reduce execution time, since the files are already created on the first run.
+Mandatory data collection after change in tag, to update csv and txt file.
+~Aditya
 
