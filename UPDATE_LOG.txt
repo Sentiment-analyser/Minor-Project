@@ -6,5 +6,6 @@ b> Added feature to search in twitter with tags that are collected from internet
    Constraints: only one string can be entered at a time
 c> Added a parameter to bypass the data collection phase to reduce execution time, since the files are already created on the first run.
 Mandatory data collection after change in tag, to update csv and txt file.
+different tags: created_at , id, id_str, text, source, truncated(optional), in_reply_to_status_id, in_reply_to_screen_name, user{}, post, description are present in twitter.txt file.
 ~Aditya
 
