@@ -5,13 +5,17 @@ b> Added feature to search in twitter with tags that are collected from internet
    Output: creates a list of strings related to the input string provided
    Constraints: only one string can be entered at a time
 c> Added a parameter to bypass the data collection phase to reduce execution time, since the files are already created on the first run.
-Mandatory data collection after change in tag, to update csv and txt file.
-different tags: created_at , id, id_str, text, source, truncated(optional), in_reply_to_status_id, in_reply_to_screen_name, user{}, post, description are present in twitter.txt file.
 
 
 2021_04_21
 a> Added a second module into the code (Preprocessing)
 b> Scattered testing snippets all around the important junctures in the code to get a clear picture in case further implementations result in a fault
 
-~Aditya
+
+2021_06_21
+The final project is completed, the code can run in any of the python IDEs. It needs the user to have a twitter's developer account with their own pairs of auth keys, they can also have their own choice of words to search from, in the Twitter Database. The output can be seen from the files generated or the comparison charts made. 
+HAPPY TRYING!!
+
+
+~Aditya,Aditi,Sourav
 
